@@ -14,7 +14,7 @@ const EventDetail = () => {
     useEffect(() => {
         const eventToDisplay = Events_Data.events.find((event, i) => String(id) === String(i));
         setEvent({ title: eventToDisplay.title, description: eventToDisplay.description });
-    }, [])
+    }, [id])
 
     return (
         <>
