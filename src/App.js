@@ -5,6 +5,7 @@ import LatestNews from "./Pages/LatestNews";
 import Members from "./Pages/Members/Members";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
+import EventDetail from "./Components/EventDetail";
 
 function App() {
   window.onbeforeunload = function () {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/members" element={<Members />} />
           <Route path="/events" element={<Events />} />
           <Route path="/news" element={<LatestNews />} />
+          <Route path="/eventDetail/:id" element={<EventDetail/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
