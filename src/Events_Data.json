@@ -1,0 +1,50 @@
+{ "events": [
+    {
+        "image_src":"https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"https://developers.google.com/community/devfest/images/devfest-social.png",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"./google io 21.png",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwLuUBh46T4Avai1MbRlZaXfdXq4GV-qIO89RFZLdaQ&usqp=CAU&ec=48665701",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"./google io 21.png",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"https://image.cnbcfm.com/api/v1/image/107191176-1675871046625-gettyimages-1246879777-raa-openaich230207_npTfk.jpeg?v=1676484288",
+        "title":"Google Bard",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"./google io 21.png",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    },
+    {
+        "image_src":"./google io 21.png",
+        "title":"Google IO 2023",
+        "date":"September 1st Week",
+        "description":"Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
+    }
+] }
