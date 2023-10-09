@@ -7,7 +7,7 @@ import Events_Data from "../../Events_Data.json";
 const Events = () => {
   // console.log(Events_Data)
   return (
-    <Flex flexDirection={"column"} mb={20}>
+    <Flex flexDirection={"column"} mb={20} >
       <Banner title="EVENTS" />
       <SimpleGrid minChildWidth={"360px"} spacingX={24} spacingY={4} mt={24}>
         {Events_Data.events.map((event, i) => {

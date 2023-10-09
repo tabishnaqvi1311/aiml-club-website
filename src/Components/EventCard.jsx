@@ -6,10 +6,11 @@ import {
   Image,
   Heading,
   Text,
-  Link,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
-const EventCard = ({ image_src, title, date, description, know_more_link }) => {
+
+const EventCard = ({ id, image_src, title, date, description }) => {
   return (
     <Card
       width={"350px"}
@@ -22,17 +23,17 @@ const EventCard = ({ image_src, title, date, description, know_more_link }) => {
       <CardBody>
         <VStack spacing={5} alignItems={"flex-start"}>
           <Image src={image_src} w={'300px'} height='auto' alt="card-image" borderRadius={8} />
+          {id}
           <Heading color={"hacker_red"}>{title}</Heading>
           <Text color={"gray.400"}>{date}</Text>
           <Text>{description}</Text>
           <Link
-            href={know_more_link}
+            to={`/eventDetail/${id}`}
             _hover={{
               textDecoration: "underline",
               textDecorationColor: "hacker_red",
             }}
-          >
-            <Text color={"hacker_red"}>Know More →</Text>
+          ><Text color={"hacker_red"}>Know More →</Text>
           </Link>
         </VStack>
       </CardBody>
