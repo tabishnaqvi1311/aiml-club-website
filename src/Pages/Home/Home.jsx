@@ -14,6 +14,8 @@ import ThingsCard from "./ThingsCard";
 import InitiativesCard from "../../Components/InitiativesCard";
 import EventCard from "../../Components/EventCard";
 import { motion } from "framer-motion";
+import CaptionCarousel from "../../Components/Carousel";
+
 
 const Home = () => {
   return (
@@ -38,6 +40,9 @@ const Home = () => {
         >
           Things We Do
         </Heading>
+
+        <CaptionCarousel/>
+
         <SimpleGrid minChildWidth={"360px"} spacingX={24} spacingY={4} mt={24}>
           <ThingsCard
             icon={<IoMdGitNetwork />}
