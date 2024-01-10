@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.banner{
+    background-image: url("../app/assets/bg-image-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socials {
+  @apply rounded-full p-2 bg-red-500 text-white
+}
