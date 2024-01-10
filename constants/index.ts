@@ -39,7 +39,7 @@ export const events: eventType[] = [
 
 export const members: memberType[] = [
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Dr. Tapas Kumar",
     por: "Associate Dean",
     date: "HOD Cse Specialisation"
@@ -135,7 +135,7 @@ export const members: memberType[] = [
     date: "Student Coordinator"
   },
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Anamika Roy",
     por: "Finance Head",
     date: "Student Coordinator"
@@ -220,13 +220,13 @@ export const members: memberType[] = [
     date: "Coding Club"
   },
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Aayush Kukreja",
     por: "Co-Head",
     date: "Coding Club"
   },
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Tabish Naqvi",
     por: "Co-Head",
     date: "Web Dev. Team"
@@ -250,7 +250,7 @@ export const members: memberType[] = [
     date: "Content Team"
   },
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Ariyanshu Goyal",
     por: "Co-Head",
     date: "Content Team"
@@ -293,13 +293,13 @@ export const members: memberType[] = [
   },
 
   {
-    profile_pic: "https//bit.ly/dan-abramov",
+    profile_pic: "https://bit.ly/kent-c-dodds",
     name: "Jalaj",
     por: "Co-Head",
     date: "Analysis Team"
   },
   {
-    profile_pic: "./Photos/tulika.png",
+    profile_pic: "./Photos/tulika.jpg",
     name: "Tulika Sharma",
     por: "Co-Head",
     date: "Analysis Team"

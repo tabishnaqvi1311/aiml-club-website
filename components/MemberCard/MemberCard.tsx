@@ -1,3 +1,4 @@
+import { createAvatar } from '@/utils/utils'
 import Image from 'next/image'
 import React from 'react'
 import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6"
@@ -13,11 +14,23 @@ type MemberCardProps = {
   member: Member
 }
 
+
 const MemberCard = ({ member }: MemberCardProps) => {
+  // const colors = ["4CAF50", "2196F3", "9C27B0"];
   return (
     <div className='flex justify-center items-center shadow-md hover:shadow-lg rounded-lg p-10 gap-7'>
       <div>
-        <img src={member.profile_pic} alt={member.name} width={20} />
+        {
+          member.profile_pic === "https://bit.ly/kent-c-dodds"
+            ?
+            
+            <div 
+              className={`bg-[#1e77c1] text-white h-[200px] w-[200px] rounded-xl flex justify-center items-center`}>
+              <span className='tracking-widest text-5xl font-semibold'>{createAvatar(member.name)}</span>
+            </div>
+            :
+            <img src={member.profile_pic} alt={member.name} width={200} className='h-[200px] object-cover rounded-xl' />
+        }
       </div>
       <div className='flex flex-col justify-center gap-4'>
         <h1 className='text-red-500 font-bold text-lg'>{member.name}</h1>
