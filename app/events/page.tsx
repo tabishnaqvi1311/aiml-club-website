@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner'
 import { events } from '@/constants'
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -14,12 +15,13 @@ export default function page() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
           {
             events.map((event) => (
-              <div className="flex flex-col items-center text-center gap-3">
+              <Link
+                href={`/events/${event.id}`} className="flex flex-col items-center text-center gap-3" key={event.id}>
                 <img src={event.image_src} alt="" width={200} className="rounded-xl" />
                 <h1 className="text-red-500 text-3xl font-extrabold tracking-wide">{event.title}</h1>
                 <span className="text-gray-700">{event.date}</span>
                 <p className="md:w-1/2">{event.description}</p>
-              </div>
+              </Link>
             ))
           }
         </div>

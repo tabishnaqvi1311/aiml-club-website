@@ -70,7 +70,7 @@ export default function Home() {
 
           {
             features.map((feature) => (
-              <div className="flex flex-col items-center text-center md:w-1/3 gap-3">
+              <div className="flex flex-col items-center text-center md:w-1/3 gap-3" key={feature.title}>
                 <span className="p-4 rounded-full bg-red-500 text-white">{feature.icon}</span>
                 <h2 className="font-semibold text-3xl">{feature.title}</h2>
                 <p className="font-light md:w-1/2">{feature.content}</p>
@@ -86,16 +86,16 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
             {
               events.map((event) => (
-                <div className="flex flex-col items-center text-center gap-3">
+                <Link href={`/events/${event.id}`} className="flex flex-col items-center text-center gap-3" key={event.id}>
                   <img src={event.image_src} alt="" width={200} className="rounded-xl" />
                   <h1 className="text-red-500 text-3xl font-extrabold tracking-wide">{event.title}</h1>
                   <span className="text-gray-700">{event.date}</span>
                   <p className="md:w-1/2">{event.description}</p>
-                </div>
+                </Link>
               ))
             }
           </div>
-          <Link href={"/events"} className="px-5 py-2 rounded-full border-red-500 border-2 text-red-500 font-medium">View All Events</Link>
+          <Link href={"/events"} className="px-5 py-2 rounded-full border-red-500 border-2 text-red-500 font-medium hover:bg-red-500 hover:text-white transition-all duration-200">View All Events</Link>
         </div>
       </div>
 
