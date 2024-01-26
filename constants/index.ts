@@ -31,10 +31,45 @@ export const events: eventType[] = [
   {
     id: 2,
     image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
-    title: "Google IO 2023",
-    date: "September 2023",
+    title: "Coding Combat",
+    date: "May 2023",
     description: "Amet, viverra nec sed in massa nibh. Magna dapibus auctor velit, est, mattis urna. Malesuada amet nisi libero, urna tristique aliquam."
   },
+  {
+    id: 3,
+    image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+    title: "Ai Quizzy",
+    date: "May 2023",
+    description: "The quiz kicked off with a round delving into the history and foundational concepts of AI. Participants were challenged to recall milestones, key figures, and the evolution of AI over the years. This segment aimed to set the stage by ensuring participants had a solid grasp of the fundamental principles."
+  },
+  {
+    id: 4,
+    image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+    title: "Flutter Workshop",
+    date: "November 2023",
+    description: "The workshop commenced with an in-depth introduction to Flutter and its programming language, Dart. Participants gained insights into the architecture and advantages of Flutter, setting the stage for a productive and immersive learning experience."
+  },
+  {
+    id: 5,
+    image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+    title: "Hydroponic",
+    date: "September 2023",
+    description: "The workshop commenced with an insightful introduction to hydroponics, outlining the core principles that differentiate this method from traditional soil-based agriculture. Participants learned about nutrient solutions, growth mediums, and the role of water in sustaining plant life."
+  },
+  {
+    id: 6  ,
+    image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+    title: "Meet Up with Government Students",
+    date: "April 2023",
+    description: ""
+  },
+  {
+    id: 7,
+    image_src: "https://www.aljazeera.com/wp-content/uploads/2021/12/GettyImages-1206796363.jpg?resize=1800%2C1800",
+    title:"Robotics Workshop",
+    date: "April 2023",
+    description: ""
+  }
 ]
 
 export const members: memberType[] = [

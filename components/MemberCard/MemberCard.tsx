@@ -18,22 +18,22 @@ type MemberCardProps = {
 const MemberCard = ({ member }: MemberCardProps) => {
   // const colors = ["4CAF50", "2196F3", "9C27B0"];
   return (
-    <div className='flex justify-center items-center shadow-md hover:shadow-lg rounded-lg p-10 gap-7'>
+    <div className='flex lg:flex-row flex-col justify-center items-center shadow-md hover:shadow-lg rounded-lg p-10 gap-7'>
       <div>
         {
           member.profile_pic === "https://bit.ly/kent-c-dodds"
             ?
-            
-            <div 
-              className={`bg-[#1e77c1] text-white h-[200px] w-[200px] rounded-xl flex justify-center items-center`}>
-              <span className='tracking-widest text-5xl font-semibold'>{createAvatar(member.name)}</span>
+
+            <div
+              className={`bg-[#1e77c1] text-white lg:h-[150px] lg:w-[150px] h-[100px] w-[100px] rounded-xl flex justify-center items-center`}>
+              <span className='tracking-widest lg:text-5xl font-semibold'>{createAvatar(member.name)}</span>
             </div>
             :
-            <img src={member.profile_pic} alt={member.name} width={200} className='h-[200px] object-cover rounded-xl' />
+            <img src={member.profile_pic} alt={member.name} width={200} className='lg:h-[200px] h-[100px] object-cover rounded-xl' />
         }
       </div>
       <div className='flex flex-col justify-center gap-4'>
-        <h1 className='text-red-500 font-bold text-lg'>{member.name}</h1>
+        <h1 className='text-red-500 font-bold lg:text-lg'>{member.name}</h1>
         <span>{member.por}</span>
         <span>{member.date}</span>
         <div className='flex gap-2'>

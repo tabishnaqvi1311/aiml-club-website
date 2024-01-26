@@ -85,8 +85,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
             {
-              events.map((event) => (
-                <Link href={`/events/${event.id}`} className="flex flex-col items-center text-center gap-3" key={event.id}>
+              events.map((event, index) => (
+                <Link href={`/events/${event.id}`} className={`${index < 3 ? "flex": "hidden"} flex-col items-center text-center gap-3`} key={event.id}>
                   <img src={event.image_src} alt="" width={200} className="rounded-xl" />
                   <h1 className="text-red-500 text-3xl font-extrabold tracking-wide">{event.title}</h1>
                   <span className="text-gray-700">{event.date}</span>
