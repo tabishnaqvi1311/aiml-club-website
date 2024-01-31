@@ -13,14 +13,14 @@ const Footer = () => {
         <Link href={"/members"} className='font-light text-lg'>Our Team</Link>
         <Link href={"/projects"} className='font-light text-lg' >Projects</Link>
       </div>
-      <div className='flex flex-col gap-2 md:w-1/3'>
+      <div className='flex flex-col gap-2 md:w-1/3 text-center'>
         <h1 className='text-red-500 font-bold text-2xl'>Address</h1>
         <p className='font-light text-lg'>
           Manav Rachna Campus Rd, Gadakhor Basti Village, Sector 43, Faridabad, Haryana 121004
         </p>
         <p className='font-light text-lg'>
           All rights reserved, AIML CLub MRIIRS
-          Designed with ♥ Haider Abdi
+          Designed with ♥ by Haider and Tabish
         </p>
       </div>
       <div className='flex flex-col gap-2'>
